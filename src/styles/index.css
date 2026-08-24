@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
 }
 
 header {
@@ -13,19 +12,32 @@ header {
     margin-top: 1rem;
 }
 
-.content-division, .menu-division {
+.content-division  * {
+    margin: 1rem;
+}
+
+.content-division i{
+    margin-top: 0rem;
+}
+
+.content-division img {
+    margin-bottom: 0rem;
+}
+
+.content-division, .menu-division, 
+.contact-division {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 0.5rem;
 }
 
-.menu-division {
+/*
+.menu-division, .contact-division {
     justify-content: flex-start;
 }
-
+*/
 .burger-picture {
     display: block;
     width: 300px;
