@@ -8,7 +8,8 @@ export const loadHome = function(){
         contentDivision.id = "content";
         body.appendChild(contentDivision);
     }
-   const contentDivision = document.getElementById("content");
+
+    const contentDivision = document.getElementById("content");
     const body = document.querySelector("body");
     console.log(contentDivision);
     body.appendChild(contentDivision);
