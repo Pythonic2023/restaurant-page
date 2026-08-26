@@ -1,8 +1,5 @@
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-import test from "node:test";
-import { resourceLimits } from "node:worker_threads";
-import { type } from "node:os";
 
 export default {
     mode: "production",
