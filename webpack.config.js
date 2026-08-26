@@ -5,7 +5,7 @@ import { resourceLimits } from "node:worker_threads";
 import { type } from "node:os";
 
 export default {
-    mode: "development",
+    mode: "production",
     entry: "./src/index.js",
     output: {
         filename: "main.js",
